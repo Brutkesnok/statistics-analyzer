@@ -42,7 +42,7 @@ namespace statistics_analyzer
 
         private void apartmentPricesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            UpdateInfo(new ApartmentPrices());
         }
 
         private void medianSalariesToolStripMenuItem_Click(object sender, EventArgs e)
