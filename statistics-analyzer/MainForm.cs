@@ -47,7 +47,7 @@ namespace statistics_analyzer
 
         private void medianSalariesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            UpdateInfo(new MedianSalaries());
         }
 
         private void UpdateTable(string[] headers, List<string[]> data)
